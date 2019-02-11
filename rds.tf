@@ -21,7 +21,7 @@ resource "alicloud_db_instance" "rdsinstance" {
 
 resource "alicloud_db_database" "rdsdb" {
 	instance_id = "${alicloud_db_instance.rdsinstance.id}"
-	name = "tododb"
+	name = "demodb"
 	character_set = "utf8"
 }
 
