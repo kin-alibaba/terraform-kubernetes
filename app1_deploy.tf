@@ -12,7 +12,7 @@ variable "app1"{
 	min_replicas = 2
 	max_replicas = 10
 	cpu_threshold = 80
-	#image_repo = "registry-intl.ap-southeast-1.aliyuncs.com/kin-test-acr/todo"
+	#image_repo = "registry-intl.ap-southeast-1.aliyuncs.com/kin-test-acr/demo"
 	image_repo = "seyantszkin/demo"			#
 	image_ver = "v1.0"
 	svc_port = 80
